@@ -34,11 +34,7 @@
 #cont_nav { background-color: #f6fdff; }
 #cont_tit { background-color: #EAF7FD; }
 #cont_ban { background-color: #dceff7;}
-#cont_cont {
-    width: 100%;
-    height: 200px;
-    background: #666;
-}
+#cont_cont { background-color: #f6fdff; }
 
 /* 컨테이너 */
 .container {
@@ -135,7 +131,7 @@
 .nav > div ol li:hover { text-decoration: underline; }
 .nav > div:last-child ol li { width: 100%; }
 
-/* 컨텐츠 타이틀 */
+/* 타이틀 */
 .tit { position: relative; }
 .tit h2 { font-size: 40px; text-align: center; padding: 5px 0; letter-spacing: 2px; color: #2c94c4; font-family: 'Nanum Brush Script', cursive; }
 .tit .btn { position: absolute; top: 5px; right: 0; width: 60px; height: 60px; background: url(../img/icon.png) no-repeat 0 -600px; }
@@ -153,3 +149,13 @@
 .ban ul li.ban_img3 { text-align: right; }
 .ban ul li img { border: 4px solid #dcdcdc; }
 .ban ul li img:hover { border-color: #98dcdc; }
+
+/* 컨텐츠 */
+.cont { overflow: hidden; padding-top: 30px; }
+.cont .column { width: 289px; height: 363px; float: left; margin: 0 30px 30px 0; padding-right: 30px; }
+.cont .col1 { border-right: 1px solid #c8c8c8; }
+.cont .col2 { border-right: 1px solid #c8c8c8; }
+.cont .col3 { margin-right: 0; padding-right: 0; }
+.cont .col4 { border-right: 1px solid #c8c8c8; }
+.cont .col5 { border-right: 1px solid #c8c8c8; }
+.cont .col6 { margin-right: 0; padding-right: 0; }
