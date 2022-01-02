@@ -7,3 +7,11 @@ body, div, ul, li, dl, dt, ol, h1, h2, h3, h4 ,h5 ,h6, input, fieldset, legend, 
 /* a Tag 링크 디자인 초기화 */
 a { color: #222; text-decoration: none; }
 a:hover { color: #390; }
+
+/* font 초기화 */
+body, input, textarea, select, button, table {
+    font-family: 'Nanum Gothic', '맑은 고딕', '돋움', sans-serif;
+    color: #222;
+    font-size: 13px;
+    line-height: 1.5;
+}

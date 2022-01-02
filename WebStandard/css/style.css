@@ -85,3 +85,24 @@
 .header .header-menu a:hover {
     color: #666;
 }
+.header .header-tit { text-align: center; }
+.header .header-tit h1 { 
+    background-color: #4aa8d4;
+    font-size: 28px;
+    padding: 5px 20px 6px 20px;
+    /* 디스플레이 공부하기! */
+    display: inline-block;
+    color: #fff;
+    margin-top: 40px;
+    font-weight: normal;
+    /* 대문자 */
+    text-transform: uppercase;
+}
+.header .header-tit a {
+    display: inline-block;
+    background-color: #2698cb;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 20px 6px 20px;
+    margin-top: -5px;
+}
