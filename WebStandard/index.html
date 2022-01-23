@@ -424,5 +424,27 @@
         <!-- //footer -->
     </div>
     <!-- //wrap -->
+
+    <!-- script -->
+    <!-- JQuery : 이 링크를 가져옴 (min은 아무것도 없다는 뜻) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        // btn 클릭 시 전체 메뉴를 보여지게 함
+        // JQuery는 ${} 표시 무조건
+        $(".tit .btn").click(function(e){
+            e.preventDefault(); // #의 기능을 꺠줌 (위치를 초기화하지않고 그 위치에서 작동함)
+            // $("#cont_nav").css("display", "block");
+            // #cont_nav {display: block} 위는 jQuery
+            // $("#cont_nav").show(); // 얘는 기능 자체가 display 를 none을 풀어주는 기능
+            // $("#cont_nav").fadeIn(); // 서서히 display가 none이 풀림
+            // $("#cont_nav").slideDown(); 
+            // $("#cont_nav").toggle(); // 나타나고 사라지는 기능 두개 다 있음
+            // $("#cont_nav").fadeToggle(); // 서서히 나타나고 사라지는 기능
+            $("#cont_nav").slideToggle(500);
+            $(this).toggleClass("on"); // 자기자신을 한번 더 선택할 때 this 사용
+            
+        });
+    </script>
+    <!-- //script -->
 </body>
 </html>
