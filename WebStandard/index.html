@@ -282,7 +282,7 @@
                             <div class="popup">
                                 <h4>Advertisement</h4>
                                 <ul>
-                                    <li><a href="#"><img src="../img/sban07.jpg" alt="이미지1"></a></li>
+                                    <li class="layer"><a href="#"><img src="../img/sban07.jpg" alt="이미지1"></a></li>
                                     <li><a href="#"><img src="../img/sban08.jpg" alt="이미지2"></a></li>
                                     <li class="last"><a href="#"><img src="../img/sban09.jpg" alt="이미지3"></a></li>
                                 </ul>
@@ -438,7 +438,7 @@
                         <li><a href="#">고객센터</a></li>
                     </ul>
                     <address>
-                        Copyright&copy;webstoryboy.co.kr All Right Rederved
+                        Copyright&copy;oh971021.dothome.co.kr All Right Rederved
                     </address>
                 </div>
             </div>
@@ -447,11 +447,35 @@
     </div>
     <!-- //wrap -->
 
+    <!-- layer popup -->
+    <div id="layer">
+        <img src="img/webstandard1.jpg" alt="웹표준 사이트">
+        <!-- 닫기 버튼 -->
+        <a href="#" class="close">Close</a>
+    </div>
+    <!-- //layer popup -->
+
     <!-- script -->
     <!-- JQuery : 이 링크를 가져옴 (min은 아무것도 없다는 뜻) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script type="text/javascript">
+        // 레이어 팝업
+        $(".layer").click(function(e){
+            e.preventDefault();
+            // $("#layer").css("display", "block");
+            // $("#layer").show();
+            $("#layer").fadeIn(200);
+            // $("#layer").slideDown(200);
+        });
+        $(".close").click(function(e){
+            e.preventDefault();
+            // $("#layer").css("display", "block");
+            // $("#layer").show();
+            $("#layer").fadeOut(200);
+            // $("#layer").slideUp(200);
+        });
+
         // 탭메뉴 
         let $tab_list = $(".tab_menu");
 
