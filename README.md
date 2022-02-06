@@ -1,1 +1,1 @@
-# Web_Study, Web Standard
+# Web_Study
