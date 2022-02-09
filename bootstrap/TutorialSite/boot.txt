@@ -1,3 +1,15 @@
 1. 부트스트랩 : 반응형 웹페이지를 빠르고 안정적을 구축하는 css/js 프레임워크
     - 프레임워크 : 코딩하는 방식을 툴에 맞춰 코딩할 수 있도록 정해진 틀을 제공함 (동일한 방식, 규칙들을 통일함으로써 강요성이 있다.) - 유지보수 굿
     - 라이브러리 : 코딩을 보다 효율적으로 할 수 있도록 모듈, 클래스를 제공함
+
+- Column : 총 12, col-xl-xxx, col-lg-xxx, col-md-xxx, col-sm-xxx, col-xs-xxx 
+- Padding, Margin : 25, 50, 75, 100 / xl, lg, md, sm, xs ... (p-xxx, m-xxx, pd-xxx, mt-xxx)
+    - p : padding / pl : padding-left / pt : padding-top ...
+    - m : margin / mr : margin-right / mb : margin-bottom ...
+- Width, Height : w-25, h-100 ...
+- Display : d-block, d-inline, d-inline-block, d-flex ...
+- Alert : alert alert-primary alert-secondary
+- Button : btn btn-primary btn-secondary
+    * primary, secondary, success, danger, warning, info, light, dark ... (색상)
+        : alert, button, badge, breadcrumb, card, carousel, collapse, dropdown, list, group, modal, navs, navbar, pagination, popover, progess,
+            scrollspy, spinner, toast, tootip (색상 적용가능한 기능들)
